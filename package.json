@@ -1,0 +1,22 @@
+{
+  "name": "assembly-atari-6502-processor-game",
+  "version": "1.0.0",
+  "description": "A simple game made in assembly for the Atari 2600 based on the 6502 processor.",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "assembly" : "dasm.exe utils/cleanmemory/cleanmemory.asm -f3 -v0 -ocart.bin",
+    "start" : ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgermduarte/Assembly-Atari-6502-processor.git"
+  },
+  "author": "Jorge Duarte <jorge_duarte@outlook.pt>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jorgermduarte/Assembly-Atari-6502-processor/issues"
+  },
+  "homepage": "https://github.com/jorgermduarte/Assembly-Atari-6502-processor#readme"
+}
