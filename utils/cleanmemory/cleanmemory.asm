@@ -14,10 +14,10 @@ Start:
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     lda #0         ; A = 0
     ldx #$FF       ; X = #$FF
-
+    sta $FF        ; make sure $FF is zeroed before the loop starts
 MemoryLoop:
-    sta $0,X       ; store the value of A inside the memory address $0 + X
     dex            ; X--
+    sta $0,X       ; store the value of A inside the memory address $0 + X
     bne MemoryLoop ; branch if not equal to zero to memory loop (Loop until x is equal to zero) (z-flag is set)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Fill the ROM size to exactly 4KB
