@@ -14,3 +14,6 @@ The dasm assembler as support for several 8-bit microprocessors including MOS 65
 Right now i'm using the stella emulator to test the game that i'm creating.
 > - https://stella-emu.github.io/
 
+
+# The 6502 processor
+![image](https://user-images.githubusercontent.com/45755132/158078685-9a0edd86-72c9-44ae-9743-38cb09ccdea3.png)
