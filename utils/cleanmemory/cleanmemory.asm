@@ -25,6 +25,3 @@ MemoryLoop:
     org $FFFC      ; Set the origin to the end of the cartige
     .word Start    ; Reset vector at $FFFC ( where the program starts)
     .word Start    ; Interrupt vector at $FFFE (unused in the VCS)
-
-
-
